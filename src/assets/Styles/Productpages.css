@@ -1,0 +1,89 @@
+/* common.css */
+
+/* Main container for content */
+.main_content {
+  padding: 20px; /* General padding around the main content */
+}
+
+/* Dashboard header */
+.dashboard_header {
+  margin-bottom: 40px; /* Space below the header */
+}
+
+/* Modal content styling */
+.modal-content {
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Modal header styles */
+.modal-header {
+  background-color: #28a745; /* Green background for header */
+  color: white; /* White text color */
+  border-top-left-radius: 8px; /* Rounded top-left corner */
+  border-top-right-radius: 8px; /* Rounded top-right corner */
+  padding: 15px; /* Padding inside the header */
+  text-align: center; /* Center text */
+}
+
+/* Title styles */
+.modal-title {
+  font-size: 1.8rem; /* Larger font size for title */
+  font-weight: bold; /* Bold title */
+}
+
+/* Input field styling */
+.form-control {
+  margin-bottom: 20px; /* Space between inputs */
+  padding: 12px 15px; /* Padding inside inputs */
+  border: 1px solid #ced4da; /* Light border */
+  border-radius: 5px; /* Rounded edges */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition on focus */
+}
+
+/* Focus effect for inputs */
+.form-control:focus {
+  border-color: #28a745; /* Green border on focus */
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); /* Light green shadow */
+  outline: none; /* Remove default outline */
+}
+
+/* Button styles */
+.btn_1 {
+  background-color: #28a745; /* Green background */
+  color: white; /* White text color */
+  padding: 12px 20px; /* Padding for the button */
+  border-radius: 5px; /* Rounded edges */
+  border: none; /* No border */
+  font-size: 1rem; /* Button font size */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth background change and scaling effect */
+}
+
+/* Button hover effect */
+.btn_1:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Error message styling */
+.text-danger {
+  color: #dc3545; /* Bootstrap Danger color */
+  font-size: 0.875rem; /* Font size for error messages */
+  margin-top: -10px; /* Negative margin to reduce space between input and message */
+  margin-bottom: 20px; /* Space below the error message */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .modal-content {
+      padding: 1rem; /* Reduced padding for smaller screens */
+  }
+
+  .form-control {
+      padding: 10px; /* Reduced padding for inputs */
+  }
+
+  .btn_1 {
+      width: 100%; /* Full width button on smaller screens */
+  }
+}
